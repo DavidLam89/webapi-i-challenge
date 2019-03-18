@@ -11,6 +11,7 @@ module.exports = {
 };
 
 function find() {
+  //return Promise.reject({});
   return db('users');
 }
 
